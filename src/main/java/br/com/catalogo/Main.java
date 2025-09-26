@@ -7,6 +7,7 @@ import br.com.catalogo.model.Movie;
 import br.com.catalogo.model.Song;
 import br.com.catalogo.observer.ApiCallObserver;
 import br.com.catalogo.observer.LoggingObserver;
+import br.com.catalogo.service.MediaCatalog;
 
 import java.util.List;
 

@@ -1,4 +1,4 @@
-package br.com.catalogo;
+package br.com.catalogo.service;
 
 import br.com.catalogo.exception.DuplicateMediaIdException;
 import br.com.catalogo.exception.MediaNotFoundException;
