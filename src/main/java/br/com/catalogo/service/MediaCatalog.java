@@ -19,8 +19,8 @@ import java.util.Map;
 public class MediaCatalog {
 
     private static MediaCatalog instance;
-    private Map<String, Media> catalog;
-    private List<CatalogObserver> observers;
+    private final Map<String, Media> catalog;
+    private final List<CatalogObserver> observers;
 
     public MediaCatalog() {
         catalog = new HashMap<>();
